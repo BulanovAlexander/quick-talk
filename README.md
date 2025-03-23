@@ -1,4 +1,4 @@
-[Посмотреть вживую](https://daily-chat.netlify.app)
+[Посмотреть вживую](https://starlit-swan-f52a61.netlify.app)
 
 
 # Quick Talk – Чат на Vue.js, Supabase и ShadCN/UI
