@@ -1,0 +1,15 @@
+@import './index.css';
+
+html,
+body {
+  height: 100svh;
+  overscroll-behavior: none;
+}
+
+#app {
+  margin: auto;
+  position: relative;
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
