@@ -1,39 +1,22 @@
-# quick-talk
+[Посмотреть вживую](https://daily-chat.netlify.app)
 
-This template should help get you started developing with Vue 3 in Vite.
 
-## Recommended IDE Setup
+# Quick Talk – Чат на Vue.js, Supabase и ShadCN/UI
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+**Quick Talk** – веб-приложение для общения в реальном времени, созданное на **Vue.js**, **Supabase** и **ShadCN/UI**. Поддерживает **регистрацию и авторизацию через логин и пароль** и обладает стильным интерфейсом.
 
-## Type Support for `.vue` Imports in TS
+## Технологии
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
+- **Vue.js** – API-роуты и оптимизированный рендеринг
+- **Supabase** – база данных, аутентификация и real-time API
+- **ShadCN/UI** – красивые и кастомизируемые UI-компоненты
+- **Tailwind CSS** – адаптивный дизайн
+  
 
-## Customize configuration
+## Функционал
 
-See [Vite Configuration Reference](https://vite.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Type-Check, Compile and Minify for Production
-
-```sh
-npm run build
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
-```
+- **Регистрация и авторизация** (Supabase Auth / редактирование профиля)
+- **Чаты в реальном времени** (Supabase Realtime API)
+- **Хранение истории сообщений** в базе данных
+- **Красивый UI** на ShadCN/UI
+- **Адаптивный интерфейс**
